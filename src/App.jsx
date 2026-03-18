@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 
-const emojiList = ["🎀", "🍰", "💄", "🍓", "🧸", "🌸"];
+const emojiList = ["🎀", "🍰", "💄", "🍓", "🧸", "🌸"];//WE SHOULD MATCH 2 EMOJIES//
 
 function App() {
   const [cards, setCards] = useState([]);
